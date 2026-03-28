@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.bak
+secrets.yaml
+*kubeconfig*
+id_rsa
+id_ed25519
+*.pem
