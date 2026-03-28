@@ -56,17 +56,21 @@ High-level flow:
 
 ## Screenshots
 
-### Argo CD Dashboard
+### Argo CD applications
 *Shows the GitOps application in a healthy and synchronized state.*
-![Argo CD App](docs/screenshots/argocd-app.png)
+![Argo CD applications](docs/screenshots/argocd-applications.png)
 
-### Resource Tree
-*Relationship between Argo CD and the managed Kubernetes resources.*
-![Resource Tree](docs/screenshots/resource-tree.png)
+### Argo CD resource tree
+*Shows the relationship between the Argo CD application and the Kubernetes resources it manages.*
+![Argo CD whoami tree](docs/screenshots/argocd-whoami-tree.png)
 
-### Headlamp View
-*Observability of namespaces and the `whoami` application.*
-![Headlamp](docs/screenshots/headlamp-view.png)
+### Headlamp namespaces
+*Shows the current namespace structure of the cluster.*
+![Headlamp namespaces](docs/screenshots/headlamp-namespaces.png)
+
+### Headlamp whoami resources
+*Shows the application resources deployed in the `whoami` namespace.*
+![Headlamp whoami](docs/screenshots/headlamp-whoami.png)
 
 ---
 
